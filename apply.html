@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>Job Application Portal</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="jobs.html">Browse Jobs</a></li>
+                <li><a href="apply.html">Apply Now</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <hr>
+    </header>
+
+    <main>
+        <h2>Job Application Form</h2>
+        <p>Fill out the form below to apply for a position</p>
+
+        <hr>
+
+        <form>
+                <h3>Personal Information</h3>
+                
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" required>
+                <br><br>
+
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+91-XXXXXXXXXX" required>
+                <br><br>
+
+                <label for="city">City:</label>
+                <select id="city" name="city">
+                    <option value="">Select City</option>
+                    <option value="bengaluru">Bengaluru</option>
+                    <option value="pune">Pune</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="hyderabad">Hyderabad</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="3"></textarea>
+                <br><br>
+
+                <label for="pincode">Pincode:</label>
+                <input type="text" id="pincode" name="pincode" pattern="[0-9]{6}">
+                <br><br>
+
+                <hr>
+
+                <h3>Job Preferences</h3>
+
+                <label for="position">Position Applied For:</label>
+                <select id="position" name="position" required>
+                    <option value="">Select a position</option>
+                    <option value="software">Software Developer</option>
+                    <option value="marketing">Marketing Manager</option>
+                    <option value="data">Data Analyst</option>
+                    <option value="hr">HR Manager</option>
+                </select>
+                <br><br>
+
+                <label>Employment Type:</label><br>
+                <input type="radio" id="fulltime" name="emptype" value="fulltime">
+                <label for="fulltime">Full-time</label><br>
+                <input type="radio" id="parttime" name="emptype" value="parttime">
+                <label for="parttime">Part-time</label><br>
+                <input type="radio" id="contract" name="emptype" value="contract">
+                <label for="contract">Contract</label>
+                <br><br>
+
+                <label for="expectedsalary">Expected Salary (per annum in ₹):</label>
+                <input type="text" id="expectedsalary" name="expectedsalary" placeholder="e.g., 600000">
+                <br><br>
+
+                <label for="startdate">Available Start Date:</label>
+                <input type="date" id="startdate" name="startdate">
+                <br><br>
+
+                <hr>
+
+                <h3>Qualifications</h3>
+
+                <label for="education">Highest Education Level:</label>
+                <select id="education" name="education">
+                    <option value="">Select Education Level</option>
+                    <option value="10th">10th Standard</option>
+                    <option value="12th">12th Standard</option>
+                    <option value="diploma">Diploma</option>
+                    <option value="bachelor">Bachelor's Degree</option>
+                    <option value="master">Master's Degree</option>
+                    <option value="phd">PhD</option>
+                </select>
+                <br><br>
+
+                <label for="experience">Years of Experience:</label>
+                <input type="number" id="experience" name="experience" min="0" max="50">
+                <br><br>
+
+                <label for="skills">Skills (select all that apply):</label><br>
+                <input type="checkbox" id="html" name="skills" value="html">
+                <label for="html">HTML</label><br>
+                <input type="checkbox" id="css" name="skills" value="css">
+                <label for="css">CSS</label><br>
+                <input type="checkbox" id="javascript" name="skills" value="javascript">
+                <label for="javascript">JavaScript</label><br>
+                <input type="checkbox" id="python" name="skills" value="python">
+                <label for="python">Python</label><br>
+                <input type="checkbox" id="java" name="skills" value="java">
+                <label for="java">Java</label><br>
+                <input type="checkbox" id="sql" name="skills" value="sql">
+                <label for="sql">SQL</label><br>
+                <br>
+
+                <label for="resume">Upload Resume (PDF/DOC):</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+                <br><br>
+
+            <input type="submit" value="Submit Application">
+            <input type="reset" value="Reset Form">
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Job Application Portal. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
