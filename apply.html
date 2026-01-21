@@ -5,30 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif;">
 
-    <header>
-        <h1>Job Application Portal</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="jobs.html">Browse Jobs</a></li>
-                <li><a href="apply.html">Apply Now</a></li>
-                <li><a href="contact.html">Contact</a></li>
+    <header style="background-color: #7ac7d7; padding: 15px; margin: 0; text-align: center;">
+        <h1 style="margin: 5px 0;">HireAway</h1>
+        <nav style="background-color: #7ac7d7; padding: 10px;">
+            <ul style="margin: 0; padding: 0; list-style: none;">
+                <li style="display: inline; margin-right: 20px; text-align: center;"><a href="index.html">Home</a></li>
+                <li style="display: inline; margin-right: 20px; text-align: center;"><a href="jobs.html">Browse Jobs</a></li>
+                <li style="display: inline; margin-right: 20px; text-align: center;"><a href="apply.html">Apply Now</a></li>
+                <li style="display: inline; margin-right: 20px; text-align: center;"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+    </header>
 
         <hr>
     </header>
 
-    <main>
-        <h2>Job Application Form</h2>
+    <main style="max-width: 1000px; margin: 20px auto; padding: 0 20px;">
+        <h2 style="margin-top: 0;">Job Application Form</h2>
         <p>Fill out the form below to apply for a position</p>
 
-        <hr>
-
-        <form>
-                <h3>Personal Information</h3>
+        <form style="background-color: #f5f5f5; padding: 15px; margin: 15px 0;">
+                <h3 style="background-color: #c8e6c9; padding: 10px; margin-top: 0; border-left: 4px solid #66bb6a;">Personal Information</h3>
                 
                 <label for="firstname">First Name:</label>
                 <input type="text" id="firstname" name="firstname" required>
@@ -68,8 +67,8 @@
 
                 <hr>
 
-                <h3>Job Preferences</h3>
-
+                <h3 style="background-color: #b3e5fc; padding: 10px; border-left: 4px solid #29b6f6;">Job Preferences</h3>
+                
                 <label for="position">Position Applied For:</label>
                 <select id="position" name="position" required>
                     <option value="">Select a position</option>
@@ -97,9 +96,7 @@
                 <input type="date" id="startdate" name="startdate">
                 <br><br>
 
-                <hr>
-
-                <h3>Qualifications</h3>
+                <h3 style="background-color: #f8bbd0; padding: 10px; border-left: 4px solid #ec407a;">Qualifications</h3>
 
                 <label for="education">Highest Education Level:</label>
                 <select id="education" name="education">
@@ -143,9 +140,9 @@
 
     <hr>
 
-    <footer>
-        <p>&copy; 2026 Job Application Portal. All rights reserved.</p>
+    <footer style="background-color: #e8e8e8; padding: 15px; text-align: center; margin-top: 20px;">
+        <p style="margin: 0;">&copy; 2026 Job Application Portal. All rights reserved.</p>
     </footer>
-    
+
 </body>
 </html>
