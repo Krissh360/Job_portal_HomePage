@@ -3,30 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact — HireAway</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body style="margin: 0; padding: 0; font-family: Arial, sans-serif;">
+<body>
 
-    <header style="background-color: #7ac7d7; padding: 15px; margin: 0; text-align: center;">
-        <h1 style="margin: 5px 0;">HireAway</h1>
-        <nav style="background-color: #7ac7d7; padding: 10px;">
-            <ul style="margin: 0; padding: 0; list-style: none;">
-                <li style="display: inline; margin-right: 20px; text-align: center;"><a href="index.html">Home</a></li>
-                <li style="display: inline; margin-right: 20px; text-align: center;"><a href="jobs.html">Browse Jobs</a></li>
-                <li style="display: inline; margin-right: 20px; text-align: center;"><a href="apply.html">Apply Now</a></li>
-                <li style="display: inline; margin-right: 20px; text-align: center;"><a href="contact.html">Contact</a></li>
+    <header class="site-header">
+        <h1 class="site-title">HireAway</h1>
+        <nav class="site-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="jobs.html">Browse Jobs</a></li>
+                <li class="nav-item"><a href="apply.html">Apply Now</a></li>
+                <li class="nav-item"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <hr>
 
-    <main style="max-width: 1000px; margin: 20px auto; padding: 0 20px;">
-        <h2 style="margin-top: 0;">Contact Us</h2>
+    <main class="container">
+        <h2>Contact Us</h2>
         <p>Have questions? We'd love to hear from you!</p>
 
-        <section style="background-color: #e1f5fe; padding: 15px; margin: 15px 0; border-left: 4px solid #01579b;">
-            <h3 style="margin-top: 0;">Get in Touch</h3>
+        <section class="section section--accent">
+            <h3>Get in Touch</h3>
             <form>
                 <label for="name">Your Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -52,20 +52,23 @@
             </form>
         </section>
 
-        <section style="background-color: #e1f5fe; padding: 15px; margin: 15px 0; border-left: 4px solid #7b1fa2;">
-            <h3 style="margin-top: 0;">Connect With Us</h3>
+        <section class="section section--center">
+            <h3>Connect With Us</h3>
             <p>Follow us on social media for latest job updates and career tips</p>
             
-            <a href="https://www.linkedin.com/in/krissh-chhabra/">LinkedIn</a> |
-            <a href="https://x.com/Krissh0360">Twitter</a> |
-            <a href="https://www.facebook.com/krissh.chhabra.7">Facebook</a>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/krissh-chhabra/">LinkedIn</a>
+                <a href="https://x.com/Krissh0360">Twitter</a>
+                <a href="https://www.facebook.com/krissh.chhabra.7">Facebook</a>
+            </div>
 
-        </section>
+        </section> 
     </main>
 
-    <hr>
+    <hr class="section-sep">
 
-    <footer style="background-color: #e8e8e8; padding: 15px; text-align: center; margin-top: 20px;">
-        <p style="margin: 0;"
+    <footer class="site-footer">
+        <p>&copy; 2026 Job Application Portal. All rights reserved.</p>
+    </footer> 
 </body>
 </html>

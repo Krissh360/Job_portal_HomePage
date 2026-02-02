@@ -3,54 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body style="margin: 0; padding: 0; font-family: Arial, sans-serif;">
+    <title>HireAway — Job Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head> 
+<body>
 
-    <header style="background-color: #7ac7d7; padding: 15px; margin: 0; text-align: center;">
-        <h1 style="margin: 5px 0;">HireAway</h1>
-        <nav style="background-color: #7ac7d7; padding: 10px;">
-            <ul style="margin: 0; padding: 0; list-style: none;">
-                <li style="display: inline; margin-right: 20px; text-align: center;"><a href="index.html">Home</a></li>
-                <li style="display: inline; margin-right: 20px; text-align: center;"><a href="jobs.html">Browse Jobs</a></li>
-                <li style="display: inline; margin-right: 20px; text-align: center;"><a href="apply.html">Apply Now</a></li>
-                <li style="display: inline; margin-right: 20px; text-align: center;"><a href="contact.html">Contact</a></li>
+    <header class="site-header">
+        <h1 class="site-title">HireAway</h1>
+        <nav class="site-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="jobs.html">Browse Jobs</a></li>
+                <li class="nav-item"><a href="apply.html">Apply Now</a></li>
+                <li class="nav-item"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main style="max-width: 1000px; margin: 20px auto; padding: 0 20px;">
-        <section style="background-color: #e3f2fd; padding: 15px; margin: 15px 0; border-left: 4px solid #2196f3;">
-            <h2 style="margin-top: 0;">Welcome to Our Job Portal</h2>
+    <main class="container">
+        <section class="section section--accent">
+            <h2>Welcome to HireAway!</h2>
             <p>Find your dream job with us. We connect talented individuals with great opportunities.</p>
         </section>
 
-        <section style="margin: 15px 0;">
-            <h2 style="margin-top: 0;">Featured Jobs</h2>
-            <article style="background-color: #b3e5fc; padding: 15px; margin: 10px 0; border: 1px solid #81d4fa;">
+        <section class="section">
+            <h2>Featured Jobs</h2>
+            <article class="card">
                 <h4>Software Developer</h4>
                 <p>Location: Bengaluru, Karnataka</p>
                 <p>Type: Full-time</p>
                 <a href="jobs.html">View Details</a>
             </article>
 
-            <article style="background-color: #f8bbd0; padding: 15px; margin: 10px 0; border: 1px solid #f48fb1;">
-                <h4 style="margin-top: 0;">Marketing Manager</h4>
+            <article class="card">
+                <h4>Marketing Manager</h4>
                 <p>Location: Pune, Maharashtra</p>
                 <p>Type: Full-time</p>
                 <a href="jobs.html">View Details</a>
             </article>
 
-            <article style="background-color: #c8e6c9; padding: 15px; margin: 10px 0; border: 1px solid #a5d6a7;">
-                <h4 style="margin-top: 0;">Data Analyst</h4>
+            <article class="card">
+                <h4>Data Analyst</h4>
                 <p>Location: Remote</p>
                 <p>Type: Contract</p>
                 <a href="jobs.html">View Details</a>
             </article>
         </section>
 
-        <section style="background-color: #fff9c4; padding: 15px; margin: 15px 0; border-left: 4px solid #fbc02d;">
-            <h2 style="margin-top: 0;">Why Choose Us?</h2>
+        <section class="section section--highlight">
+            <h2>Why Choose Us?</h2>
             <ul>
                 <li>Wide range of job opportunities</li>
                 <li>Easy application process</li>
@@ -60,9 +61,9 @@
         </section>
     </main>
 
-    <footer style="background-color: #e8e8e8; padding: 15px; text-align: center; margin-top: 20px;">
-        <p style="margin: 0;">&copy; 2026 Job Application Portal. All rights reserved.</p>
-    </footer>
+    <footer class="site-footer">
+        <p>&copy; 2026 Job Application Portal. All rights reserved.</p>
+    </footer> 
     
 </body>
 </html>
